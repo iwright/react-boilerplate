@@ -1,0 +1,5 @@
+# System files.
+.idea
+
+# Node modules.
+.npm/node_modules
