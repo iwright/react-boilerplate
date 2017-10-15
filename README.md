@@ -11,8 +11,8 @@ Using homebrew install node and webpack.
 * `brew install node`
 * `brew install webpack`
 
-####Install required packages:
-From our app, change directory so we are in *.npm*. Install the required dependencies for the project, they are
+#### Install required packages:
+From our app, change directory so we are in **/.npm**. Install the required dependencies for the project, they are
 
 * Babel
 * React
@@ -20,14 +20,14 @@ From our app, change directory so we are in *.npm*. Install the required depende
 
 `npm install`
 
-#####Dev compiling:
+##### Dev compiling:
 Compiling as dev runs the following command `webpack -d --watch`. This allows our environment to continue watching for
 file updates with a debug output.
 
 * `npm run dev`
 
-#####Prod compiling:
-Compiling as prod runs the following command `NODE_ENV=prod webpack`, This sets our `NODE_ENV` environment to prod which
+##### Prod compiling:
+Compiling as prod runs the following command `NODE_ENV=prod webpack`, This sets our `NODE_ENV` environment to *prod* which
 will remove any duplicate code and uglify for production.
 
 * `npm run prod`
